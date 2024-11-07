@@ -1,0 +1,8 @@
+<!-- message.ejs -->
+<% for (let i = 0; i < messages.length; i++) { %>
+  <li>
+    <p>Message: <%= messages[i].text %></p>
+    <p>User: <%= messages[i].user %></p>
+    <p>Timestamp: <%= messages[i].added %></p>
+  </li>
+<% } %>
